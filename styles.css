@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.header-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    background: url('https://images.pexels.com/photos/4238524/pexels-photo-4238524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center/cover;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 0; /* Remove the margin */
+}
+
+#todoapp {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+#taskList {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 8px 0;
+}
+
+#addTaskBtn {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer p {
+    margin: 0;
+}
